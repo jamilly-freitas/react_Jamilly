@@ -83,7 +83,7 @@ class CreatUpdate extends Component {
                         Digite o titulo
                     </Form.Text>
                 </Form.Group>
-
+{/* //teste  */}
                 <Form.Group controlId="formAutor">
                     <Form.Control type="text" placeholder="Autor" value={this.state.autor} onChange={this.changeAutorHandler}/>
                     <Form.Text className= "text-muted">
